@@ -1,0 +1,288 @@
+
+body {
+  background-color: #fff;
+  //background: url("../img/annie.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  height: 50em;
+}
+  
+#header {
+    background-color:#8fbc8f;
+    padding: 10px 10px;
+    height: 10em;
+    padding-left: 30%;
+    //margin-left: 20%;
+    //margin-right: 20%;
+    margin-bottom: 0px;
+}
+#main{
+ height: auto;
+text-align: center;
+/*  
+background: rgba(240,255,240);
+margin-bottom:100% ;
+margin: inherit;
+margin-left: 10%;
+margin-right: 20%;
+padding-left: 20%;*/
+}
+#main form{
+    text-align: left;
+    margin:0% 40%;
+}
+
+/*上面綠色框*/
+#header > ul {
+  padding: 2em;
+}
+
+#header >ul > li {
+  float:left;
+  list-style-type: none;
+}
+#header >ul >li a{
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.5em 2em;
+  display: block;
+  text-decoration: none;
+  color: #2f4f4f;
+  background: rgba(255,255,255, 0.5);
+  color: #ffffe0;
+  background: rgba(128,128,128, 0.5);
+}
+#header ul#all li a#first {
+  border-radius: 32px 0 0 32px;
+}
+#header ul#all li a#last {
+  border-radius: 0 32px 32px 0;
+}
+#header>ul>li.current>a,
+#header>ul>li.current>a:hover{
+    color: #000000;
+}
+#header ul#all li a:hover{
+    color: #2f4f4f;
+    background: rgba(173,216,230, 0.5);
+}
+#header p2{
+    color: #8b4513;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:cursive;
+}
+/*上面綠色框*/
+
+#main p{
+    color: #8b4513;
+    font-size: 34px;
+    font-weight: bold;
+    font-family:cursive;
+}
+#main ul{
+    text-decoration: none;
+    list-style-type:none;
+}
+#main p {
+    color: #556b2f;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+
+#main input{
+ padding: 6px 6px;
+ width: auto;
+ border: 1px solid #556b2f;
+ color: #556b2f;
+ border-radius: 5px;
+ outline: none; 
+}
+#main input[type=text],#main input[type=password]{
+ padding: 6px 6px;
+ width: 180px;
+ border: 1px solid #556b2f;
+ color: #556b2f;
+ border-radius: 5px;
+ outline: none; 
+}
+#main input:focus {
+ color: #d2691e;
+ background-color: #fdf5e6;
+ border: 1px solid #d2691e;
+}
+
+#main button[type=submit] {
+    
+ color: #556b2f;
+ background-color: #fdf5e6;
+ padding: 6px 12px;
+}
+#main button[type=submit]:hover {
+color: #fdf5e6;
+ background-color: #556b2f;
+}
+
+/*登入小框框 以下*/
+#login{
+    text-align: center;
+    width:200px;
+    background: rgba(128,128,128, 0.5);
+    left: 30px;
+    top: 10px;
+    position: fixed;
+     border-radius: 16px 16px 16px 16px; 
+}
+#login ul{
+list-style-type:none;
+  margin: 10px 40px 0px 0px;
+}
+#login ul a{
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 10px;
+  display: block;
+  text-decoration: none;
+  color: #ffffe0;
+}
+#login p{
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0px; 
+  color:darkslateblue;
+}
+/*登入小框框 以上*/
+
+/*首頁*/
+#content{ 
+color: #8b4513;
+text-align: center;
+}
+/*首頁*/
+
+/* 查詢 以下*/
+#inquire{
+ height: 40em;
+ margin-bottom:100% ;
+ text-align: center;
+ 
+}
+/* Table styles */
+#inquire table{
+ margin:0% 25%;
+ width: 800px ;
+ border-bottom: 200px;
+ border-collapse: collapse;
+ font-family: 'Open Sans', sans-serif;
+}
+#inquire table th {
+ text-align:center;
+ padding: 10px;
+ font-size: 20px;
+ background-color: darkslategray;
+ color: white;
+}
+#inquire table tr td {
+font-size:18px;
+ border-bottom: 3px solid #afeeee;
+ color: darkslategray;
+}
+#inquire table tr:hover {
+ background-color: #afeeee;
+}
+#inquire img{
+    width: 70px;
+    height: 70px;
+}
+#inquire input,button {
+ padding: 6px 13px;
+ border: 1px solid #556b2f;
+ color: #556b2f;
+ border-radius: 5px;
+ outline: none; 
+}
+#inquire input[type=text] {
+ 
+ color: #556b2f;
+ padding: 5px;
+ width: 300px;
+ background-color: #fdf5e6;
+}
+#inquire button[type=submit] {
+ color: #556b2f;
+ background-color: #fdf5e6;
+ padding: 6px 12px;
+}
+#inquire button[type=submit]:hover {
+color: #fdf5e6;
+ background-color: #556b2f;
+}
+/* 查詢 以上*/
+
+/* 典藏*/
+#collect{
+ height: 40em;
+ margin-bottom:100% ;
+  text-align: center;
+ padding-left: 25%;
+}
+/* Table styles */
+#collect table{
+ width: 800px ;
+ border-bottom: 200px;
+ border-collapse: collapse;
+font-family: 'Open Sans', sans-serif;
+}
+#collect table th {
+ text-align:center;
+ padding: 10px;
+ font-size: 20px;
+ 
+}
+#collect img{
+    width: 150px;
+    height: 150px;
+}
+/* 典藏*/
+
+/*留言板*/
+#board{
+// background-color: aliceblue;
+ padding: 10px 10px;
+ height: 90em;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom: 0px;
+ text-align: left;
+ color: #8b4513;
+ font-size: 18px;
+}
+#board h2{
+font-size: 30px;
+text-align: center;
+color: #8b4513;
+}
+#board textarea{
+ padding: 10px 10px;
+ width: 300px;
+ height: 80px;
+color: #556b2f;
+border-radius: 5px;
+border: 1px solid #556b2f;
+}
+#board p{
+    color:dimgray;
+}
+#board  h4,h6,p{
+ margin:5px;
+}
+/*留言板*/
+
